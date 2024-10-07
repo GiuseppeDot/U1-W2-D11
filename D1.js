@@ -10,8 +10,19 @@ REGOLE
 /* ESERCIZIO 1
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
+let datatype1 = "undefined";
+let datatype2 = "numero";
+let datatype3 = "boolean";
+let datatype4 = "null";
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log(
+  "i principali datatype sono:",
+  datatype1,
+  datatype2,
+  datatype3,
+  datatype4
+);
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -59,8 +70,10 @@ let name1 = "john";
 let name2 = "John";
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("name1" === "name2");
+console.log(name1 === name2);
 
-if (name1 !== name2) {
-  console.log("true");
-}
+// if (name1 !== name2) {
+//   console.log("true");
+// }
+
+console.log(name1 === name2.toLocaleLowerCase());
